@@ -1,0 +1,18 @@
+In order to understand what this is we first have to look at what Regex 
+is...
+
+
+regular expression, a regex is a string of text that allows you to create 
+patterns that help match, locate, and manage text. Perl is a great 
+example of a programming language that utilizes regular expressions
+
+It is often used in search engines, search and replace dialogs of word 
+processors and text editors, in text processing utilities such as sed and 
+AWK and in lexical analysis. Many programming languages provide regex
+capabilities either built-in or via libraries, as it has uses in many
+situations.
+
+this shows regex used in python 
+
+
+This is used in google analyctics and to automate changing string to other inputs the user sets
