@@ -34,10 +34,12 @@ phoneRegex = re.compile(r'''(
     (\d{3}|\(d{3}\))?           # area code
     (\s|-|\.)?                  # seperator
     \d{3}                       # First 3 digits 
-    (\s|-|\.)                   #seperator
-    \d{4}                       #Last 4 digits
+    (\s|-|\.)                   # seperator
+    \d{4}                       # Last 4 digits
     (\s*(ext|x|ext.)\s*\d{2,5})?
 )''', re.VERBOSE)
 # We use ''' instead of one ' . This can help us organize and make it clearer to read
 
 '''Combining re.IGNOREXASE, re.DOTALL, and re.VERBOSE'''
+someRegexValue = re.compile('foo', re.IGNORECASE | re.DOTALL)
+someRegexValue = re.compile('foo', re.IGNORECASE | re.DOTALL | re.VERBOSE)

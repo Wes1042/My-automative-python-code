@@ -16,3 +16,19 @@ this shows regex used in python
 
 
 This is used in google analyctics and to automate changing string to other inputs the user sets
+
+                    Characters classes
+\d Any numeric digit from 0 to 9.
+\D Any character that is not a numeric digit from 0 to 9.
+\w Any letter, numeric digit, or the underscore character. (Think of this as
+matching “word” characters.)
+\W Any character that is not a letter, numeric digit, or the underscore character.
+\s Any space, tab, or newline character. (Think of this as matching “space”
+characters.)
+\S Any character that is not a space, tab, or newline
+
+
+MORE EXAMPLES
+
+?=[]  is considered like a conditional 
+If the string does not meet the conditions , it is false 

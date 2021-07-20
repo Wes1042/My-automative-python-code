@@ -24,6 +24,7 @@ print(so1)
 # carrot ^
 beginWithHello = re.compile(r'^Hello')
 so2 = beginWithHello.search('hello World!')
+print(so2)
 #_sre.SRE_Match object; span=(0, 5), match='Hello'
 so3 = beginWithHello.search('He said hello.') == None 
 print(so3)
