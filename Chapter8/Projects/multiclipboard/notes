@@ -1,0 +1,10 @@
+The extension .pyw  will not display a terminal when being used 
+
+this can be used as a program that retains values and can be called out 
+examples :
+mcb.pyw save spam ( the contents will be saved in the keyword spam)
+mcb.pyw spam ( loads the copied contents of the value spam)
+mcb.pyw list ( will list all of the keyword in the variable)
+
+the sys module allows you to manipulate pythong run time program 
+It would manipulate the programs functions not the system device 
